@@ -1,0 +1,61 @@
+.row {
+     margin-left: 40px;
+     margin-bottom: 40px;
+}
+
+.title {
+     margin-left: -15px;
+     text-transform: uppercase;
+     font-weight: bold;
+     font-size: 18px;
+     letter-spacing: 1.03px;
+}
+
+
+.posters::-webkit-scrollbar {
+     display: none;
+}
+.posters {
+     display: flex;
+     overflow-y: hidden;
+     overflow-x: scroll;
+     padding: 20px;
+     cursor: pointer;
+}
+.element {
+     display: block;
+}
+.posterImg {
+     object-fit: contain;
+     margin-right: 8px;
+     transition: all ease-in-out 0.2s;
+}
+
+.isFirstRow {
+     height: 250px;
+}
+.isFirstRow:hover {
+     transform: scale(1.16);
+}
+
+.isSmallRow {
+     height: 130px;
+}
+.isSmallRow:hover {
+     transform: scale(1.16);
+}
+
+
+
+.elementName {
+     text-align: center;
+     font-size: 14px;
+     font-weight: bold;
+     width: 93%;
+}
+
+.elementRatings {
+     text-align: center;
+     font-size: 10px;
+     color: rgb(139, 139, 139);
+}
